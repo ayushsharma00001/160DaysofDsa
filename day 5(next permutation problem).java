@@ -21,6 +21,5 @@ class Solution {
             arr[pivot] = (arr[pivot]+arr[repl]) - (arr[repl] = arr[pivot]);
             Arrays.sort(arr,pivot+1,arr.length);
         }
-        
     }
 }
