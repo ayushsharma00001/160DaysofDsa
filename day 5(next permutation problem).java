@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     void nextPermutation(int[] arr) {
         int pivot = -1;
