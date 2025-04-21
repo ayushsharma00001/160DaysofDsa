@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     int getMinDiff(int[] arr, int k) {
         Arrays.sort(arr);
