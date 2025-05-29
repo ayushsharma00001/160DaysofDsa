@@ -2,7 +2,6 @@ import java.util.*;
 class Solution {
     static ArrayList<int[]> insertInterval(int[][] intervals, int[] newInterval) {
         ArrayList<int []> result = new ArrayList<>();
-        boolean inserted = false;
         int i = 0;
         while(i<intervals.length && intervals[i][1]<newInterval[0]){
             result.add(intervals[i]);
