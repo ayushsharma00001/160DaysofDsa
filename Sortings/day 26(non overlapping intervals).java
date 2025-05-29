@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class Solution {
     static int minRemoval(int intervals[][]) {
         Arrays.sort(intervals, (a,b) -> Integer.compare(a[1],b[1]));
